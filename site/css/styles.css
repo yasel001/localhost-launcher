@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+html {
+  background-color: black;
+}
+
+html,
+body,
+.conteneur {
+  height: 100%;
+}
+
+.conteneur {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+}
+
+figcaption {
+  position: absolute;
+  top: 65%;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+a:hover figure figcaption {
+  border-radius: 30%;
+  background-color: white;
+  color: black;
+}
+
+img {
+  height: 100px;
+  width: 100px;
+}
+
+a:hover figure img {
+  height: 150px;
+  width: 150px;
+}
